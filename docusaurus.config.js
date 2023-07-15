@@ -9,9 +9,9 @@ const katex = require('rehype-katex');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'DevOps Roadmap',
+  title: 'Java Software Engineer Roadmap',
   tagline: 'CoachCrew.tech',
-  url: 'https://docs.devops.coachcrew.tech',
+  url: 'https://docs.java.coachcrew.tech',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -20,7 +20,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'CoachCrew.tech', // Usually your GitHub org/user name.
-  projectName: 'devops-roadmap', // Usually your repo name.
+  projectName: 'java-roadmap', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -59,8 +59,8 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       {
         id: 'coding',
-        path: 'coding',
-        routeBasePath: 'coding',
+        path: 'se',
+        routeBasePath: 'se',
         remarkPlugins: [math],
         rehypePlugins: [katex],
         sidebarPath: require.resolve('./sidebars.js'),
@@ -104,7 +104,7 @@ const config = {
       navbar: {
         title: 'Roadmap',
         logo: {
-          alt: 'DevOps Roadmap',
+          alt: 'Java Roadmap',
           src: 'img/logo.svg',
         },
         items: [
@@ -114,9 +114,9 @@ const config = {
             label: 'Cloud'
           },
           {
-            to: '/coding/intro',
+            to: '/se/intro',
             position: 'left',
-            label: 'Coding',
+            label: 'Software Engineering',
           },
           {
             to: '/tools/intro',
@@ -142,7 +142,7 @@ const config = {
             items: [
               {
                 label: 'Coding',
-                href: '/coding/intro',
+                href: '/se/intro',
               },
             ],
           },
