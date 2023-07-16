@@ -58,9 +58,9 @@ const config = {
       '@docusaurus/plugin-content-docs',
       /** @type {import('@docusaurus/preset-classic').Options} */
       {
-        id: 'coding',
-        path: 'se',
-        routeBasePath: 'se',
+        id: 'cc106',
+        path: 'cc106',
+        routeBasePath: 'cc106',
         remarkPlugins: [math],
         rehypePlugins: [katex],
         sidebarPath: require.resolve('./sidebars.js'),
@@ -114,9 +114,9 @@ const config = {
             label: 'Cloud'
           },
           {
-            to: '/se/intro',
+            to: '/cc106/intro',
             position: 'left',
-            label: 'Software Engineering',
+            label: 'CC106',
           },
           {
             to: '/tools/intro',
@@ -138,11 +138,11 @@ const config = {
             ],
           },
           {
-            title: 'Coding',
+            title: 'CC106',
             items: [
               {
-                label: 'Coding',
-                href: '/se/intro',
+                label: 'CC106',
+                href: '/cc106/intro',
               },
             ],
           },
@@ -165,6 +165,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ['java'],
       },
     }),
 };

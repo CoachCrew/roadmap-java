@@ -1,11 +1,8 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # S01 - Introduction
-
-
-
 
 <img src={require('@site/static/img/car.vs.computer.jpg').default} />
 
